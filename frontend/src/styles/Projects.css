@@ -1,0 +1,88 @@
+/* Force white background and remove any background image */
+.page-container.projects-container {
+  background-color: #ffffff !important;
+  background-image: none !important;
+  min-height: 100vh;
+  padding-bottom: 50px;
+}
+
+/* Page container layout */
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 20px;
+  color: #333;
+}
+
+/* Hero content (centered heading + paragraph) */
+.hero-content {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.hero-content h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #333 !important;
+}
+
+.hero-content p {
+  font-size: 18px;
+  color: #555 !important;
+}
+
+/* Projects list layout */
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Individual project card */
+.project-card {
+  background: linear-gradient(135deg, #f0f0f0, #e0e0ff);
+  padding: 20px;
+  border-radius: 12px;
+  width: 220px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  color: #333 !important;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+/* Dynamic hover effect */
+.project-card:hover {
+  transform: translateY(-8px) scale(1.05);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(135deg, #d0e0ff, #a0c0ff);
+}
+
+/* Card text */
+.project-card h3 {
+  margin-bottom: 10px;
+  color: #333 !important;
+}
+
+.project-card p {
+  margin-bottom: 10px;
+  color: #333 !important;
+}
+
+/* Select & Start button */
+.project-card button {
+  margin-top: 10px;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.project-card button:hover {
+  background: #0056b3;
+}

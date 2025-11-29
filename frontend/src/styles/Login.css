@@ -1,0 +1,49 @@
+.login-container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+/* Left side with blur background */
+.login-left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.6); /* blur/dark overlay */
+  backdrop-filter: blur(6px);
+  color: white;
+  text-align: center;
+  padding: 40px;
+}
+
+.login-content h1 {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.login-content p {
+  font-size: 20px;
+  margin-bottom: 30px;
+  line-height: 1.4;
+}
+
+.login-btn {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 6px;
+  background-color: #ff9800;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.login-btn:hover {
+  background-color: #e68900;
+}
+
+/* Right side with image */
+.login-right {
+  flex: 1;
+}

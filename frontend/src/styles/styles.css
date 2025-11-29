@@ -1,0 +1,65 @@
+.projects-container {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background: url("https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1350&q=80")
+    no-repeat center center/cover;
+}
+
+.projects-container .overlay {
+  background: rgba(0,0,0,0.6);
+  min-height: 100vh;
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Hero Section */
+.hero-content {
+  color: white;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 20px;
+}
+
+/* Projects List */
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.project-card {
+  background: rgba(255,255,255,0.1);
+  padding: 20px;
+  border-radius: 8px;
+  width: 200px;
+  text-align: center;
+  color: white;
+  backdrop-filter: blur(5px);
+}
+
+.project-card button {
+  margin-top: 10px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #007bff;
+  color: white;
+  transition: 0.3s;
+}
+
+.project-card button:hover {
+  background: #0056b3;
+}
