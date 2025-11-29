@@ -26,31 +26,19 @@ Freelancer Time and Invoice Manager is a full-stack application designed to help
 
 ### Backend Setup
 1. Navigate to the backend folder:
-   ```bash
    cd backend/demo
 Install dependencies and run:
-
-bash
-Copy code
 mvn clean install
 mvn spring-boot:run
 Backend will start at http://localhost:8080.
 
 Frontend Setup
 Navigate to the frontend folder:
-
-bash
-Copy code
 cd frontend
 Install dependencies:
-
-bash
-Copy code
 npm install
 Start the React app:
 
-bash
-Copy code
 npm start
 Frontend will run at http://localhost:3000.
 
