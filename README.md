@@ -28,3 +28,46 @@ Freelancer Time and Invoice Manager is a full-stack application designed to help
 1. Navigate to the backend folder:
    ```bash
    cd backend/demo
+Install dependencies and run:
+
+bash
+Copy code
+mvn clean install
+mvn spring-boot:run
+Backend will start at http://localhost:8080.
+
+Frontend Setup
+Navigate to the frontend folder:
+
+bash
+Copy code
+cd frontend
+Install dependencies:
+
+bash
+Copy code
+npm install
+Start the React app:
+
+bash
+Copy code
+npm start
+Frontend will run at http://localhost:3000.
+
+Usage
+Login with your credentials (or predefined login for demo).
+
+Browse and select a project to start tracking time.
+
+Stop tracking when work is completed.
+
+Generate and download PDF invoices.
+
+Future Enhancements
+Advanced analytics and reporting for projects and earnings.
+
+Workflow automation for recurring tasks.
+
+Mobile app integration.
+
+AI-based productivity and bid suggestions.
